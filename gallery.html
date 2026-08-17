@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — Md Shahidul Khan Pappo</title>
+<meta name="description" content="Photo gallery — conferences, presentations, certifications and events attended by Md Shahidul Khan Pappo.">
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="gallery">
+
+<div id="nav-mount"></div>
+
+<main>
+  <section class="section section-tight reveal">
+    <p class="section-eyebrow">Gallery</p>
+    <h2 class="section-title">Conferences, presentations &amp; moments.</h2>
+    <p class="page-lede">A visual record of research presentations, competitions, certifications, and campus life — from Cox&rsquo;s Bazar conference halls to the AIRIL lab.</p>
+
+    <div class="gallery-grid">
+
+      <figure class="gallery-card gallery-card--wide" data-title="Presenter — 28th ICCIT 2025" data-desc="IEEE Bangladesh Section, Cox's Bazar · Dec 19–21, 2025. Presenting RenalAI on explainable CKD prediction.">
+        <div class="gallery-media">
+          <img src="assets/images/gallery/iccit-2025.jpg" alt="Presenting at ICCIT 2025" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        </div>
+        <figcaption class="gallery-caption">
+          <h4>Presenter, 28th ICCIT 2025</h4>
+          <p>Cox's Bazar · Dec 2025</p>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-card" data-title="Participant — 11th WIECON-ECE 2025" data-desc="IEEE, Cox's Bazar · Dec 22–23, 2025. Presenting OvaSignal AI on ovarian cancer risk prediction.">
+        <div class="gallery-media">
+          <img src="assets/images/gallery/wiecon-2025.jpg" alt="WIECON-ECE 2025" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        </div>
+        <figcaption class="gallery-caption">
+          <h4>WIECON-ECE 2025</h4>
+          <p>Cox's Bazar · Dec 2025</p>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-card" data-title="Finalist — ICSC 2025" data-desc="International Computer Science Competition — ranked in the top 10% of all global participants, Senior Category.">
+        <div class="gallery-media">
+          <img src="assets/images/gallery/icsc-2025.jpg" alt="ICSC 2025 Finalist" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        </div>
+        <figcaption class="gallery-caption">
+          <h4>Finalist, ICSC 2025</h4>
+          <p>Top 10% · Nov 2025</p>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-card" data-title="Qualifier — IYMC 2025" data-desc="International Youth Math Challenge — Qualification Round 2025.">
+        <div class="gallery-media">
+          <img src="assets/images/gallery/iymc-2025.jpg" alt="IYMC 2025 Qualifier" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        </div>
+        <figcaption class="gallery-caption">
+          <h4>Qualifier, IYMC 2025</h4>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-card" data-title="IBM Machine Learning Specialization" data-desc="Certification covering supervised, unsupervised and deep learning fundamentals.">
+        <div class="gallery-media">
+          <img src="assets/images/gallery/ibm-ml.jpg" alt="IBM ML Specialization Certificate" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        </div>
+        <figcaption class="gallery-caption">
+          <h4>IBM ML Specialization</h4>
+          <p>Certificate · 2023</p>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-card" data-title="Visualizing Filters of a CNN using TensorFlow" data-desc="Certification covering supervised, unsupervised and deep learning fundamentals.">
+        <div class="gallery-media">
+          <img src="assets/images/gallery/cnn.jpg" alt="Visualizing Filters of a CNN using TensorFlow" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        </div>
+        <figcaption class="gallery-caption">
+          <h4>Visualizing Filters of a CNN using TensorFlow</h4>
+          <p>Certificate · 2023</p>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-card" data-title="Computer Vision with OpenCV" data-desc="OpenCV University certification in applied computer vision.">
+        <div class="gallery-media">
+          <img src="assets/images/gallery/opencv-cert.jpg" alt="Computer Vision with OpenCV Certificate" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        </div>
+        <figcaption class="gallery-caption">
+          <h4>Computer Vision with OpenCV</h4>
+          <p>OpenCV University · 2024</p>
+        </figcaption>
+      </figure>
+
+    </div>
+
+    <p class="gallery-note">
+      <strong>Note:</strong> these tiles show live placeholders until real photos are added. Drop images into
+      <strong>assets/images/gallery/</strong> using the filenames referenced in gallery.html (e.g. iccit-2025.jpg) —
+      each tile swaps to your photo automatically, the same way the profile picture does.
+    </p>
+  </section>
+</main>
+
+<div id="footer-mount"></div>
+
+<!-- Lightbox -->
+<div class="gallery-lightbox" id="galleryLightbox">
+  <button class="gallery-lightbox-close" id="galleryLightboxClose">Close ✕</button>
+  <div class="gallery-lightbox-inner">
+    <div class="gallery-media gallery-lightbox-media" id="galleryLightboxMedia">
+      <div class="gallery-placeholder" style="display:flex;">
+        <span class="gallery-placeholder-icon" id="galleryLightboxIcon"></span>
+      </div>
+    </div>
+    <div class="gallery-lightbox-body">
+      <h4 id="galleryLightboxTitle"></h4>
+      <p id="galleryLightboxDesc"></p>
+    </div>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
